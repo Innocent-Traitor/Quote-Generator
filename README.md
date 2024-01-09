@@ -1,5 +1,5 @@
 # Quote Generator
- A generator for motavational or inspirational quotes
+ A generator for motivational  or inspirational quotes
 
 Created for freeCodeCamp's FrontEnd Development Libraries Certification
 
