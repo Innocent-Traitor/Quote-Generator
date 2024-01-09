@@ -50,19 +50,8 @@ const parseImage = (api) => {
             $('body').css("backgroundImage", `url('${download_url}')`);
             $('#photographer').text(author);
             $('#photographer').attr('href', url);
-        
-            console.log(download_url);
         })
         .catch(err => console.error('Error ', err));
-}
-
-const fuckyou = {
-    "id": "774",
-    "author": "Alex Wigan",
-    "width": 5000,
-    "height": 3333,
-    "url": "https://unsplash.com/photos/5qlegaTwZpM",
-    "download_url": "https://picsum.photos/id/774/5000/3333"
 }
 
 $(document).ready(function(){
